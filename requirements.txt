@@ -199,7 +199,7 @@ pyasn1-modules==0.2.8
 pycosat==0.6.3
 # pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 # pyct @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_615564ea-cf79-46b0-83e7-0a37ab5db74a2ay4a5f0/croots/recipe/pyct_1658500312593/work
-pycurl==7.45.1
+# pycurl==7.45.1
 PyDispatcher==2.0.5
 # pydocstyle @ file:///tmp/build/80754af9/pydocstyle_1621600989141/work
 # pyerfa @ file:///opt/concourse/worker/volumes/live/fef1f482-1dec-42b9-4439-b8031d24ea69/volume/pyerfa_1621560786048/work
