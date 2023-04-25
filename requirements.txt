@@ -306,7 +306,7 @@ torch==2.0.0
 # w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
 # watchdog @ file:///opt/concourse/worker/volumes/live/bc34f9ce-893b-443f-56fb-9256c33ecf2a/volume/watchdog_1638367303330/work
 # wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-webencodings==0.5.1
+# webencodings==0.5.1
 # websocket-client @ file:///opt/concourse/worker/volumes/live/5baed9cd-40fb-4fbe-6721-9568cdd0f2d7/volume/websocket-client_1614804245073/work
 # Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
 # whatthepatch @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0aabmq0ph3/croots/recipe/whatthepatch_1661795995892/work
