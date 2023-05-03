@@ -24,7 +24,7 @@ SECRET_KEY = "django-insecure-&!$0&t89@0r#jj04+t!@4$zn^d(@_h3td9u@-ivouygh4f0m&w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['https://fifus17.github.io/Weather-Chatbot-App/', '127.0.0.1']
 
 # Application definition
 

@@ -16,7 +16,7 @@ base_url_onecall = "https://api.openweathermap.org/data/2.5/onecall?"
 
 # util function for getting coordinates of the address
 def find_cords(address):
-    location = geolocator.geocode(address[0])
+    location = geolocator.geocode(address)
     return [location.latitude, location.longitude]
 
 # util function for converting units
@@ -154,6 +154,7 @@ def get_weather_geoloc(latitude, longitude, isHourly, tag):
         "weather": response['current']['weather'][0]['id'],
         "temperature": math.ceil(kelvin_to_celcius(response['current']["temp"])),
         "city": location.raw['address'].get('city') or location.raw['address'].get('town'),
+        "day": True if (response['current']['dt'] < response['current']['sunset'] and response['current']['dt'] > response['current']['sunrise']) else False,
         "region": location.raw['address'].get('state'),
         "forecast": "clock" if isHourly else "calendar",
         "forecastDay": [
